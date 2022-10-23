@@ -101,7 +101,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--site-nav-text);
   padding: 31px 0px;
-  transition: color 250ms linear;
+  transition: color 250ms var(--timing-function);
 }
 
 .site-nav a:hover,
@@ -136,7 +136,7 @@ img {
   color: var(--team-color);
   display: flex;
   gap: 10px;
-  transition: color 250ms linear;
+  transition: color 250ms var(--timing-function);
 }
 .contact-logo {
   fill: currentColor;
@@ -195,7 +195,7 @@ img {
   background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  transition: background-color 250ms linear;
+  transition: background-color 250ms var(--timing-function);
 }
 
 .hero-button:hover,
@@ -340,7 +340,7 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
-  transition: background-color 250ms linear;
+  transition: background-color 250ms var(--timing-function);
 }
 
 .team-link:hover .contact-logo-team,
@@ -349,14 +349,14 @@ img {
 }
 .contact-logo-team {
   fill: #afb1b8;
-  transition: fill 250ms linear;
+  transition: fill 250ms var(--timing-function);
 }
 
 .team-link:hover,
 .team-link:focus {
   fill: #ffffff;
   background-color: var(--hover-color);
-  transition: fill 250ms linear, background-color 250ms linear;
+  transition: fill 250ms linear, background-color 250ms var(--timing-function);
 }
 .teamwork-list {
   background-color: var(--white-text);
@@ -395,7 +395,7 @@ img {
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  transition: fill 250ms linear;
+  transition: fill 250ms var(--timing-function);
 }
 .clients-icon:hover,
 .clients-icon:focus {
@@ -405,7 +405,7 @@ img {
 .button-icon {
   background-size: cover;
   fill: #afb1b8;
-  transition: fill 250ms linear;
+  transition: fill 250ms var(--timing-function);
 }
 .clients-icon:hover .button-icon,
 .clients-icon:focus .button-icon {
@@ -438,7 +438,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-text);
-  transition: color 250ms linear;
+  transition: color 250ms var(--timing-function);
 }
 .adress:hover,
 .adress:focus {
@@ -461,8 +461,8 @@ img {
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
-  transition: fill 250ms linear, background-color 250ms linear,
-    box-shadow 250ms linear;
+  transition: fill 250ms var(--timing-function), background-color 250ms var(--timing-function),
+    box-shadow 250ms var(--timing-function);
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -570,7 +570,7 @@ img {
   height: 100%;
   top: 0;
   left: 0;
-  transition: opacity 250ms linear, visibility 250ms linear;
+  transition: opacity 250ms var(--timing-function), visibility 250ms var(--timing-function);
 }
 .is-hidden {
   visibility: hidden;
@@ -586,7 +586,7 @@ img {
   left: 50%;
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms linear;
+  transition: transform 250ms var(--timing-function);
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
@@ -782,7 +782,7 @@ img {
   border: 0;
   padding: 5px 22px;
   min-height: 38px;
-  transition: color 250ms linear, background-color 250ms linear;
+  transition: color 250ms var(--timing-function), background-color 250ms var(--timing-function);
 }
 .btn:hover,
 .btn:focus {
@@ -812,7 +812,7 @@ img {
   padding: 63px 24px 0px 24px;
   height: 100%;
   transform: translateY(101%);
-  transition: transform 250ms linear;
+  transition: transform 250ms var(--timing-function);
   overflow: auto;
 }
 .all-items-link:hover .products-top-text,
