@@ -644,7 +644,8 @@ img {
 .form-input:hover,
 .modal-comment:focus,
 .modal-comment:hover {
-  border: 1px solid var(--hover-color);
+  
+  outline: 1px solid var(--hover-color);
 }
 .form-input:focus + .icon-form,
 .form-input:hover + .icon-form {
