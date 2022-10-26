@@ -632,13 +632,6 @@ img {
   margin-bottom: 28px;
   position: relative;
 }
-.form-shadow {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.form-shadow:focus,
-.form-shadow:hover {
-  filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.25));
-}
 
 .form-input:focus,
 .form-input:hover,
@@ -656,12 +649,12 @@ img {
   padding: 11px;
   padding-left: 42px;
   width: 100%;
-  border: 1px solid rgba(33, 33, 33, 0.2);
+  border: transparent;
   border-radius: 4px;
   transition-property: background-color, fill;
   transition-duration: 250ms;
-  transition-timing-function: var(--timing-function);
-  outline-color: transparent;
+  transition-timing-function: var(--timing-function);  
+  outline: 1px solid rgba(33, 33, 33, 0.2);
 }
 .form-label {
   position: absolute;
@@ -735,6 +728,7 @@ img {
   color: #757575;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .privasy-link {
